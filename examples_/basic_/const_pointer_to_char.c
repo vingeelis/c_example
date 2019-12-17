@@ -2,8 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc, char const *argv[])
-{
+int main(int argc, char const *argv[]) {
     char a = 'A', b = 'B';
     char *const ptr = &a;
     printf("Value pointed to by ptr: %c\n", *ptr);
